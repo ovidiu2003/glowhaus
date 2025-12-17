@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Glowhaus • By VAIDA ANDREEA</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" href="img/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="glass-overlay" id="glassOverlay" hidden></div>
+    <div class="container">
+      <nav class="nav" aria-label="Navigație principală">
+        <a class="brand" href="#top">
+          <span class="mark" aria-hidden="true"></span>
+          <div>
+            <b>Glowhaus</b>
+            <span>By VAIDA ANDREEA</span>
+          </div>
+        </a>
+
+        <div class="links" role="navigation">
+          <a href="#servicii">Servicii</a>
+          <a href="#experienta">Experiența</a>
+          <a href="#galerie">Before/After</a>
+          <a href="#reviews">Recenzii</a>
+          <a href="#programare">Programare</a>
+        </div>
+
+        <div class="actions">
+          <a class="btn ghost" href="#galerie">Vezi rezultate</a>
+          <a class="btn primary" href="#programare">Programează-te</a>
+          <button class="burger" id="burger" aria-label="Deschide meniul" aria-expanded="false">
+            <span aria-hidden="true"></span>
+          </button>
+        </div>
+      </nav>
+
+      <div class="mobile" id="mobileMenu" hidden>
+        <a href="#servicii">Servicii</a>
+        <a href="#experienta">Experiența</a>
+        <a href="#galerie">Before/After</a>
+        <a href="#reviews">Recenzii</a>
+        <a href="#programare">Programare</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top" class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-card">
+          <div class="eyebrow">romantic • luxury white • glowhaus</div>
+          <h1>Eleganță delicată.<br>Frumusețe care rămâne.</h1>
+          <p class="sub">
+            Gene, unghii și sprâncene într-un stil luminos și feminin — rezultate fine, proporții naturale,
+            detalii impecabile.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#programare">Programează-te</a>
+            <a class="btn" href="#servicii">Vezi serviciile</a>
+          </div>
+
+          <div class="hero-meta" aria-label="Avantaje rapide">
+            <span class="pill"><span class="dot"></span> 4.9 ★ recenzii</span>
+            <span class="pill"><span class="dot"></span> igienă impecabilă</span>
+            <span class="pill"><span class="dot"></span> produse premium</span>
+          </div>
+
+          <div class="sep" aria-hidden="true"></div>
+          <p class="mini">
+            <i>„Less, but better.”</i> — un look romantic, curat, fără exagerări.
+          </p>
+        </div>
+
+        <div class="visual" aria-label="Imagine / video cover">
+          <img src="img/hero.png" alt="Imagine reprezentativă Glowhaus" />
+          <div class="frame">
+            <div>
+              <small>signature</small>
+              <b>Soft Glam Glow</b>
+              <p>Finisaje nude, volum controlat, linii curate — exact cât trebuie.</p>
+            </div>
+          </div>
+          <div class="badge">📍 Tulcea • Stradă 1 decembrie • Nr 16</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Services -->
+  <section id="servicii" class="section">
+    <div class="container">
+      <div class="eyebrow">servicii</div>
+      <h2>Tratamente premium, în stilul tău</h2>
+      <p style="margin-top:10px; max-width:72ch">
+        Fiecare serviciu începe cu o mini-consultanță: alegem forma, intensitatea și finisajul potrivit,
+        astfel încât rezultatul să fie natural și elegant.
+      </p>
+
+      <div class="grid-3">
+        <article class="card">
+          <div class="eyebrow">gene</div>
+          <h3>Extensions / Lifting</h3>
+          <p class="desc">Look romantic, aerat — volum fin, greutate minimă, rezistență optimă.</p>
+          <p class="mini">Opțiuni: Classic, Wispy, Volume soft</p>
+          <a class="link" href="#programare">Programează gene →</a>
+        </article>
+
+        <article class="card">
+          <div class="eyebrow">unghii</div>
+          <h3>Manichiură Nude Luxury</h3>
+          <p class="desc">Construcție sau gel cu finisaje curate, cuticule perfecte, luciu sticlă.</p>
+          <p class="mini">Opțiuni: Semi, Gel, Construcție</p>
+          <a class="link" href="#programare">Programează unghii →</a>
+        </article>
+
+        <article class="card">
+          <div class="eyebrow">sprâncene</div>
+          <h3>Stilizare / Laminare</h3>
+          <p class="desc">Armonie a feței: formă corectă, aspect natural, contur elegant.</p>
+          <p class="mini">Opțiuni: Pensat, Laminare, Vopsit</p>
+          <a class="link" href="#programare">Programează sprâncene →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experienta" class="section compact">
+    <div class="container">
+      <div class="eyebrow">experiența glowhaus</div>
+      <h2>Mai mult decât un salon. O experiență.</h2>
+
+      <div class="split">
+        <div class="panel">
+          <h3>Standardul nostru</h3>
+          <p style="margin-top:10px">
+            Totul este gândit să fie liniștitor, curat și premium — de la instrumentar, până la
+            modul în care îți definim stilul.
+          </p>
+
+          <div class="list">
+            <div class="li">
+              <span class="icon" aria-hidden="true"></span>
+              <div><b>Consultanță</b><span>Alegem împreună intensitatea potrivită.</span></div>
+            </div>
+            <div class="li">
+              <span class="icon" aria-hidden="true"></span>
+              <div><b>Igienă impecabilă</b><span>Proceduri clare, spațiu aerisit.</span></div>
+            </div>
+            <div class="li">
+              <span class="icon" aria-hidden="true"></span>
+              <div><b>Produse premium</b><span>Calitate, confort, rezultate stabile.</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Semnătura romantică</h3>
+          <p style="margin-top:10px">
+            Stilul Glowhaus pune accent pe feminitate: nude-uri calde, linii fine, volum controlat.
+            Arăți “îngrijită” și elegantă în orice lumină.
+          </p>
+
+          <div class="list">
+            <div class="li">
+              <span class="icon" aria-hidden="true"></span>
+              <div><b>Finisaje curate</b><span>Fără încărcare, fără “efect artificial”.</span></div>
+            </div>
+            <div class="li">
+              <span class="icon" aria-hidden="true"></span>
+              <div><b>Rezultate naturale</b><span>Proporții potrivite feței și mâinilor.</span></div>
+            </div>
+            <div class="li">
+              <span class="icon" aria-hidden="true"></span>
+              <div><b>Glow discret</b><span>Lux minimalist, feminin.</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="galerie" class="section">
+    <div class="container">
+      <div class="eyebrow">Rezultate</div>
+      <h2>Rezultatele muncii noastre</h2>
+      <p style="margin-top:10px; max-width:72ch">
+        Înlocuiește placeholder-ele cu pozele tale. Recomand: fundal alb, lumină naturală, cadre apropiate.
+        Un slider se poate adăuga ușor după.
+      </p>
+
+      <div class="gallery">
+        <div class="ph big" aria-label="Placeholder imagine 1"><img src="img/unghi.PNG" alt=""></div>
+        <div class="ph small" aria-label="Placeholder imagine 2"><img src="img/gene.PNG" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section id="reviews" class="section compact">
+    <div class="container">
+      <div class="eyebrow">recenzii</div>
+      <h2>Spun ele cel mai bine</h2>
+
+      <div class="quotes">
+        <div class="quote">
+          <div class="stars">★★★★★</div>
+          <p style="margin-top:10px">
+            “Cel mai elegant salon. Totul este curat, liniștitor, iar rezultatul la gene a fost exact cum îmi doream.”
+          </p>
+          <div class="who">— Clientă Glowhaus</div>
+        </div>
+        <div class="quote">
+          <div class="stars">★★★★★</div>
+          <p style="margin-top:10px">
+            “Manichiura nude arată impecabil. Detalii perfecte, fără grabă. Se simte premium.”
+          </p>
+          <div class="who">— Clientă Glowhaus</div>
+        </div>
+        <div class="quote">
+          <div class="stars">★★★★★</div>
+          <p style="margin-top:10px">
+            “Sprâncenele au schimbat complet armonia feței. Natural, fin, exact cum trebuie.”
+          </p>
+          <div class="who">— Clientă Glowhaus</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking / Contact -->
+  <section id="programare" class="section">
+    <div class="container">
+      <div class="eyebrow">programare</div>
+      <h2>Programează-te</h2>
+
+      <div class="split">
+        <div class="panel">
+          <h3>Trimite o cerere</h3>
+          <p style="margin-top:10px">
+            Completează formularul și te contactăm pentru confirmare.
+          </p>
+
+          <form onsubmit="event.preventDefault(); alert('Cererea a fost trimisă (demo). Conectează un backend sau un link WhatsApp pentru producție.');">
+            <div class="row">
+              <input type="text" name="nume" placeholder="Nume" required>
+              <input type="tel" name="telefon" placeholder="Telefon" required>
+            </div>
+            <div class="row">
+              <select name="serviciu" required>
+                <option value="" disabled selected>Alege serviciul</option>
+                <option>Gene</option>
+                <option>Unghii</option>
+                <option>Sprâncene</option>
+                <option>Pachet complet</option>
+              </select>
+              <input type="text" name="data" placeholder="Data preferată (ex: 20.12)" required>
+            </div>
+            <textarea name="mesaj" placeholder="Detalii (ex: look natural, nude, volum soft)"></textarea>
+            <button class="btn primary" type="submit">Trimite cererea</button>
+            <div class="note">Te așteptam la noi la salon !</div>
+          </form>
+        </div>
+
+        <div class="panel">
+          <h3>Contact rapid</h3>
+          <p style="margin-top:10px">
+            Înlocuiește datele de mai jos cu ale tale.
+          </p>
+
+          <div class="list" style="margin-top:18px">
+            <div class="li">
+              <span class="icon" aria-hidden="true"></span>
+              <div><b>WhatsApp</b><span>+40 7xx xxx xxx</span></div>
+            </div>
+            <div class="li">
+              <span class="icon" aria-hidden="true"></span>
+              <div><b>Instagram</b><span>@glowhaus.studio</span></div>
+            </div>
+            <div class="li">
+              <span class="icon" aria-hidden="true"></span>
+              <div><b>Adresă</b><span>Oraș • Stradă • Nr</span></div>
+            </div>
+            <div class="li">
+              <span class="icon" aria-hidden="true"></span>
+              <div><b>Program</b><span>L–V 10:00–19:00 • S 10:00–16:00</span></div>
+            </div>
+          </div>
+
+          <div style="margin-top:18px; display:flex; gap:10px; flex-wrap:wrap">
+            <a class="btn" href="#" onclick="alert('Pune aici link-ul WhatsApp (wa.me/...)'); return false;">Scrie pe WhatsApp</a>
+            <a class="btn" href="#" onclick="alert('Pune aici link-ul Instagram'); return false;">Deschide Instagram</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="foot">
+        <div class="brand">
+          <span class="mark" aria-hidden="true"></span>
+          <div>
+            <b>Glowhaus</b>
+            <span>By VAIDA ANDREEA</span>
+          </div>
+        </div>
+        <small>
+          © <span id="y"></span> Glowhaus. Toate drepturile rezervate.<br>
+          Design: Luxury White • Romantic • Minimal by Cîmpean Ovidiu.
+        </small>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky CTA (mobile) -->
+  <div class="sticky" aria-label="Acțiuni rapide">
+    <a class="btn primary" href="#programare">Programează-te</a>
+    <a class="btn" href="#galerie">Rezultate</a>
+  </div>
+
+  <script>
+    // Mobile menu toggle
+    const burger = document.getElementById('burger');
+    const menu = document.getElementById('mobileMenu');
+
+    burger?.addEventListener('click', () => {
+      const expanded = burger.getAttribute('aria-expanded') === 'true';
+      burger.setAttribute('aria-expanded', String(!expanded));
+      menu.hidden = expanded;
+    });
+
+    // Close mobile menu on link click
+    menu?.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        menu.hidden = true;
+        burger.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // Year in footer
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
